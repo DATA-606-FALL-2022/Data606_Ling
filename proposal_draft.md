@@ -15,4 +15,5 @@ The dataset has been collected from https://data.world/datafiniti/consumer-revie
 
 Sentiment analysis is incredibly helpful for social media monitoring since it gives us a broad picture of how the general population feels about particular issues.
 
+## Why Amazon Reviews are Important?
 Simply said, an Amazon product review is a reflection of what the customer thinks about that particular item. You can learn about consumer demand and interests by analyzing product reviews. Additionally, it would give you marketing intelligence about the kinds of goods that customers are more likely to buy. They will be better equipped to comprehend their own product and the potential problems with it thanks to this insightful information.
