@@ -23,7 +23,5 @@ This project aims to demonstrate how Python can be used to perform sentiment ana
 
 ## Tasks
 
-1. Data cleaning, exploration, and visualization are all included in the first section, "Preparing Data."
+1. Data cleaning, exploration, and visualization are all included in the first section, "Preparing Data".
 2. Proposing Methods & Experiments - Using Logistic Regression and Linear Support Vector Machine Algorithms, I examined the outcomes of the prediction accuracies of four distinct feature extraction models (Bag of Words, TF IDF, Word Embeddings, and Topic Modeling) used in Text-Classification (NLP). It should be noted that document data must be converted into numerical data, such as the vector space model, since it cannot be computed. Feature extraction of document data is the common name for this transformation task.
-
-
