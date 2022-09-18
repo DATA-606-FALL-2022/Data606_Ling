@@ -17,3 +17,13 @@ Sentiment analysis is incredibly helpful for social media monitoring since it gi
 
 ## Why Amazon Reviews are Important?
 Simply said, an Amazon product review is a reflection of what the customer thinks about that particular item. You can learn about consumer demand and interests by analyzing product reviews. Additionally, it would give you marketing intelligence about the kinds of goods that customers are more likely to buy. They will be better equipped to comprehend their own product and the potential problems with it thanks to this insightful information.
+
+## Goal for this Porject
+This project aims to demonstrate how Python can be used to perform sentiment analysis on Amazon Customer Electronic Products Reviews. We are attempting to determine whether each textual review corresponds to a positive review (the consumer is satisfied) or a negative review (the customer is not satisfied). The reviewers' overall scores might be between 1 and 5.
+
+## Tasks
+
+1. Data cleaning, exploration, and visualization are all included in the first section, "Preparing Data."
+2. Proposing Methods & Experiments - Using Logistic Regression and Linear Support Vector Machine Algorithms, I examined the outcomes of the prediction accuracies of four distinct feature extraction models (Bag of Words, TF IDF, Word Embeddings, and Topic Modeling) used in Text-Classification (NLP). It should be noted that document data must be converted into numerical data, such as the vector space model, since it cannot be computed. Feature extraction of document data is the common name for this transformation task.
+
+
