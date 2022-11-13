@@ -1,4 +1,4 @@
-# NLP (Natural Language Processing) & Sentiment Analysis of Products Reviews
+# NLP & Sentiment Analysis of Products Reviews
 
 
 ![622f5ab3c267051b690b6e6c_NLP Tools_Thumbnail](https://user-images.githubusercontent.com/78451214/201503092-6020e3f0-25e8-41a6-9954-b8c2ee1c1e0c.png)
