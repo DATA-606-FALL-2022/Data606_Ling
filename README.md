@@ -9,3 +9,7 @@ My mission in this project is to utilize machine learning to automatically predi
 
 
 <img width="541" alt="sentiment-analysis-machine-learning-techniques" src="https://user-images.githubusercontent.com/78451214/201502904-3e5d58f9-c784-4a2d-bcd7-9f4c7b2fda51.png">
+
+
+Presentation PPT link:
+https://docs.google.com/presentation/d/1D9SL3rRPLV9Ybskx9Ew2CT0ZbjM_fdYNVOXkyt5Ljuw/edit?usp=sharing
