@@ -66,14 +66,19 @@ Data visualization is the practice of translating information into a visual cont
 #### Standardization the Ratings
 This is an important preprocessing phase, we are deciding the sentiment of review based on the overall score. If the score is greater than 3, we take that as positive and if the value is less than 3 it is negative If it is equal to 3, we take that as neutral sentiment
 
-![Screen Shot 2022-11-17 at 3 24 12 PM](https://user-images.githubusercontent.com/78451214/202552194-2c625160-6a72-4c72-9169-31ed92def9c4.png)
-
+![Screen Shot 2022-11-17 at 3 24 56 PM](https://user-images.githubusercontent.com/78451214/202552408-ee11ff25-f41b-4a52-a678-f27e239c2f84.png)
 
 1. EDA
 
     1.1 Check number of words per review
-    1.2 Check rating percentage
-    1.3 Standardization
+    
+      ![Screen Shot 2022-11-17 at 3 27 07 PM](https://user-images.githubusercontent.com/78451214/202552845-f4375943-a117-493e-bd68-5364318bb9b5.png)
+      ![Screen Shot 2022-11-17 at 3 27 30 PM](https://user-images.githubusercontent.com/78451214/202552847-11d169e6-0d3c-4225-ac3a-7d9da69b6edf.png)
+      
+      Insight: Negative reviews are longer than positive and neutral reviews
+
+    3.2 Check rating percentage
+    4.3 Standardization
 2. Visualization
     2.1 Rating Distribution
     2.2 Relationship between year and sentiment count
