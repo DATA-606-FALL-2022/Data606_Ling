@@ -28,6 +28,7 @@ Out of the 27 elements, the ones that will be used in our project are Features:
 - reviews.date
 - reviews.text
 - reviews.rating
-![Screen Shot 2022-11-17 at 3 05 33 PM](https://user-images.githubusercontent.com/78451214/202548211-d2250d5e-f32e-4eb5-a641-7a69446b4c63.png)
+
+![1](https://user-images.githubusercontent.com/78451214/202548211-d2250d5e-f32e-4eb5-a641-7a69446b4c63.png)
 
 
