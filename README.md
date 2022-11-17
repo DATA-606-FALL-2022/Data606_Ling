@@ -31,4 +31,40 @@ Out of the 27 elements, the ones that will be used in our project are Features:
 
 ![1](https://user-images.githubusercontent.com/78451214/202548211-d2250d5e-f32e-4eb5-a641-7a69446b4c63.png)
 
+## Data Cleaning and Preprocessing
+Data preprocessing involves the transformation of the raw dataset into an understandable format. Preprocessing data is a fundamental stage in data mining to improve data efficiency. The data preprocessing methods directly affect the outcomes of any analytic algorithm.
+
+### 1. Data overview
+  - 1.1 Import dataset and libraries 
+  
+  - 1.2 Check missing values
+      
+   Check and remove all rows that contain missing values to avoid classification or regression error.
+#### 2. Text preprocessing
+
+  - 2.1 Remove none text and special character
+    
+   Text data might include website link, hashtags etc… These things better be removed from the text before we run the model.
+
+  - 2.2 Convert all text to lowercase
+   
+   To avoid the mistake during the training that the word like “We” and “we” might get learn differently, we turn all words with capital letter into lower cases.
+  - 2.3 Tokenization
+    
+   One sentence consists of many words, but not all words are important. To analyze each word, we need to split words into single word for each sentence.
+  - 2.4 Remove stopword
+    
+   Stopwords are words such as ‘I’, ‘we’, ‘my’, ‘you’, ‘own’, ‘only’ etc… These words are not likely to represent particular meaning. The model might consider this as noise, so we remove it as to keep noise level down.
+
+  - 2.5 Lemmatization vs. Stemming
+  
+   Stemming is the process of producing morphological variants of a root/base word. Stemming programs are commonly referred to as stemming algorithms or stemmers. In contrast to stemming, lemmatization looks beyond word reduction and considers a language’s full vocabulary to apply a morphological analysis to words.
+   
+   ![68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f323035302f312a455335627437496f496e49713259696f5170327a63512e706e67](https://user-images.githubusercontent.com/78451214/202551026-7beda252-6762-41ae-8956-333c57be3bd9.png)
+
+
+### Data Visualization
+Data visualization is the practice of translating information into a visual context, such as a chart or graph, to make data easier for the human brain to understand and pull insights from. The main goal of data visualization is to make it easier to identify patterns, trends and outliers in large data sets.
+
+
 
