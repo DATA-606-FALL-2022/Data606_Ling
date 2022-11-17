@@ -94,5 +94,57 @@ As a distribution of the text in a visualization way, a word cloud displays the 
 
 ![Screen Shot 2022-11-17 at 3 56 14 PM](https://user-images.githubusercontent.com/78451214/202558074-c4f22a86-e1b5-432b-ad1a-81aaf4caeb88.png)
 
+### Model Building: Sentiment Analysis
+
+#### Count Vectorizer
+Count Vectorizer is a great tool provided by the scikit-learn library in Python. It is used to transform a given text into a vector on the basis of the frequency of each word that occurs in the entire text. This is helpful when we have multiple such texts, and we wish to convert each word in each text into vectors.
+
+Example:
+
+“The cup is present on the table”
+
+Data =[‘The’, ‘cup’, ‘is’, ‘present’, ‘on’, ‘the’, ‘table’]
+
+This can be vectorized as
+
+![Screen Shot 2022-11-17 at 4 00 41 PM](https://user-images.githubusercontent.com/78451214/202558822-16264b65-00d5-4af5-92b0-5f77c4c9ec72.png)
+
+#### TF-IDF Vectorizer
+Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction. Basically TF-IDF increases the value of the words or token which are important for the document.
+
+I will use count and  TF-IDF vectorizers to vectorize the text data in the review column and then use four different classification models from scikit-learn models. After that, to evaluate the model on this dataset find out the accuracy, confusion matrix, true positive rates, and true negative rates.
+
+Here are the steps: 
+
+1. Split the dataset into training sets and testing sets
+
+2. Vectorize the target column
+
+3.Find the accuracy score and true positive and true negative rates
+
+4.Run accuracy test with confusion matrix
+
+I will repeat this same process for four different classifiers. The classifiers that will be used here are Logistic Regression, K Nearest Neighbor, Support Vector Machine, and Random Forest Classifier. 
+
+
+### Outcome
+![Screen Shot 2022-11-16 at 3 48 55 PM](https://user-images.githubusercontent.com/78451214/202559453-cdeae1b5-c984-493c-8f85-0022e356c68e.png)
+1. Logistic regression was the best out of all three classifiers used for this project considering overall accuracy, true positive rate, and true negative rate.
+
+2. The Support Vector classifier does not seem to be suitable for this project. Though true positive rates look very good, true negative rates look really poor.
+
+3. Countvectorizer give number of frequency with respect to index of vocabulary where as tf-idf consider overall documents of weight of words, but from my analysis it has very little difference of performance.
+
+
+### Reference
+
+- Class notes
+- Consumer reviews of Amazon products. data.world. (2019, June 25). Retrieved November 15, 2022, from https://data.world/datafiniti/consumer-reviews-of-amazon-products 
+- Generating word cloud in python. GeeksforGeeks. (2021, July 5). Retrieved November 14, 2022, from https://www.geeksforgeeks.org/generating-word-cloud-python/#:~:text=For%20generating%20word%20cloud%20in,from%20UCI%20Machine%20Learning%20Repository. 
+- Li, M. (2020, October 3). Sentiment analysis - movies reviews. Medium. Retrieved November 14, 2022, from https://medium.com/analytics-vidhya/sentiment-analysis-movies-reviews-b299de4bb1aa 
+- Using countvectorizer to extracting features from text. GeeksforGeeks. (2022, July 7). Retrieved November 14, 2022, from https://www.geeksforgeeks.org/using-countvectorizer-to-extracting-features-from-text/ 
+- Hưng, Q. K. N. (2021, April 18). Sentiment Analysis in python-81% accuracy. Medium. Retrieved November 14, 2022, from https://medium.com/@liangnguyen612/sentiment-analysis-in-python-81-accuracy-ab5d694b7ef8 
+- Another twitter sentiment analysis with python — part 4 (count ... (n.d.). Retrieved November 15, 2022, from https://towardsdatascience.com/another-twitter-sentiment-analysis-with-python-part-4-count-vectorizer-b3f4944e51b5 
+
 
 
