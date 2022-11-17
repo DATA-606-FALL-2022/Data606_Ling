@@ -8,7 +8,6 @@ Code  : <a href=https://github.com/DATA-606-FALL-2022/Data606_Ling/tree/main/Cod
 Data Source  : <a href=https://github.com/DATA-606-FALL-2022/Data606_Ling/tree/main/Data> Data </a> </a>
 Power Point:  <a href=https://github.com/DATA-606-FALL-2022/Data606_Ling/blob/main/Sentiment%20Analysis%20-%20%20Amazon%20review.pptx>Presentation</a>
 Video: <a href=https://youtu.be/rzPBnFjj4vA>Youtube</a>
-
 </pre>
 Sentiment analysis is the method of analyzing consumer sentiment using natural language processing, text analysis, and statistics. Many companies are aware of their customers’ feelings — what they’re doing, how they’re saying it, and what they mean. Instead of reading word by word and trying to figure out its sentiment, nowadays with the advance of machine learning, human just let the machine read news or comments for us and it will answer the sentence’s sentiment or meaning in the faster time.
 
