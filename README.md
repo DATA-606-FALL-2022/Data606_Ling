@@ -14,3 +14,6 @@ My mission in this project is to utilize machine learning to automatically predi
 
 Presentation PPT link:
 https://docs.google.com/presentation/d/1D9SL3rRPLV9Ybskx9Ew2CT0ZbjM_fdYNVOXkyt5Ljuw/edit?usp=sharing
+
+YouTube Link:
+https://youtu.be/rzPBnFjj4vA
