@@ -68,21 +68,31 @@ This is an important preprocessing phase, we are deciding the sentiment of revie
 
 ![Screen Shot 2022-11-17 at 3 24 56 PM](https://user-images.githubusercontent.com/78451214/202552408-ee11ff25-f41b-4a52-a678-f27e239c2f84.png)
 
-1. EDA
+### EDA
 
-    1.1 Check number of words per review
-    
-      ![Screen Shot 2022-11-17 at 3 27 07 PM](https://user-images.githubusercontent.com/78451214/202552845-f4375943-a117-493e-bd68-5364318bb9b5.png)
-      ![Screen Shot 2022-11-17 at 3 27 30 PM](https://user-images.githubusercontent.com/78451214/202552847-11d169e6-0d3c-4225-ac3a-7d9da69b6edf.png)
+   1. Check number of words per review
+       
+       ![Screen Shot 2022-11-17 at 3 27 07 PM](https://user-images.githubusercontent.com/78451214/202552845-f4375943-a117-493e-bd68-5364318bb9b5.png)
+       ![Screen Shot 2022-11-17 at 3 27 30 PM](https://user-images.githubusercontent.com/78451214/202552847-11d169e6-0d3c-4225-ac3a-7d9da69b6edf.png)
       
-      Insight: Negative reviews are longer than positive and neutral reviews
+   Insight: Negative reviews are longer than positive and neutral reviews
+   
+   2. Sentiment review counts over year
+  
+   ![Screen Shot 2022-11-17 at 3 33 05 PM](https://user-images.githubusercontent.com/78451214/202557461-f4d544f6-4c48-42c5-b9ac-5dcc301a7231.png)
 
-    3.2 Check rating percentage
-    4.3 Standardization
-2. Visualization
-    2.1 Rating Distribution
-    2.2 Relationship between year and sentiment count
-    2.3 Relationship between month and reviews count
-    2.4 Relationship between rating and number of helpful reviews
-    2.5 Creating word cloud 
+Insight: From the plot we can clearly see the rise in positive reviews from 2014. Reaching its peak around 2016 then it start going down. Negative and neutral reviews are very low as compared to the positive reviews
+   
+   3. Reviews count distribution 
+   
+   ![Screen Shot 2022-11-17 at 3 54 47 PM](https://user-images.githubusercontent.com/78451214/202557826-5a3ad435-8fa8-4817-99cc-17aa3589a6e1.png)
+
+  Insight: More reviews at the starting of a year
+   
+   4. Creating word cloud 
+As a distribution of the text in a visualization way, a word cloud displays the words in different sizes, indicating the frequency of the each word in the text. Looking at the word cloud, it shows that the reviews are related to the electronic products such as: "Keyboard", etc. Some words are related to the customers experiences, such as: "great", "love", etc.
+
+![Screen Shot 2022-11-17 at 3 56 14 PM](https://user-images.githubusercontent.com/78451214/202558074-c4f22a86-e1b5-432b-ad1a-81aaf4caeb88.png)
+
+
 
