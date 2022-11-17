@@ -17,4 +17,9 @@ My mission in this project is to utilize machine learning to automatically predi
 
 <img width="541" alt="sentiment-analysis-machine-learning-techniques" src="https://user-images.githubusercontent.com/78451214/201502904-3e5d58f9-c784-4a2d-bcd7-9f4c7b2fda51.png">
 
+## Data Set 
+
+### Overview
+The Data set is retrieved from [Consumer reviews of Amazon products.]
+https://data.world/datafiniti/consumer-reviews-of-amazon-products
 
